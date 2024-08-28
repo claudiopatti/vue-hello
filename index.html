@@ -10,7 +10,13 @@
     </head>
     <body>
         
-        <h1 id="app">{{ message }}</h1>
+        <div id="app">
+            <h1>{{ message }}</h1>
+    
+            <img v-bind:src="imageData" alt="">
+
+        </div>
+
         
         <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
         <script type="text/javascript" src="js/scripts.js"></script>
